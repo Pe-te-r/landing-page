@@ -11,20 +11,21 @@ const Home = () => {
         />
       </div>
       <div className="md:w-1/2 w-full md:pl-6 text-center md:text-left">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">Welcome to My Page</h1>
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">Welcome to Phantom softwares</h1>
         <p className="text-lg text-gray-700 mb-4">
-          I do many tech-related stuffs. How will you need me to be of service?
+          Innovative Solutions, Exceptional Performance
         </p>
         <p className="text-lg text-gray-700 mb-6">
-          Here to provide you with the best web development solutions tailored to your needs.
+          Discover our range of software solutions designed to streamline your business processes and boost productivity.
         </p>
         <div className="text-2xl font-semibold text-blue-600">
           <Typewriter
             options={{
               strings: [
-                "Hey, I'm Phantom, a software developer.",
-                "In need a web developer? Worry no more!",
-                "Let's build something amazing together."
+                "Empowering Businesses with Cutting-Edge Technology.",
+                "Custom Software Solutions Tailored to Your Needs.",
+                "Unmatched Support and Service for Your Success.",
+                "Experience Innovation and Efficiency Like Never Before."
               ],
               autoStart: true,
               loop: true,

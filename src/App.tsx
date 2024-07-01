@@ -4,13 +4,21 @@ import Home from './pages/home';
 import ContactForm from './pages/contact';
 import Signup from './pages/signup';
 import About from './pages/About';
-import Profile from './pages/Profile';
 import NavBar from './components/navbar';
+import Service from './pages/Service';
 
 const routes=([
   {
     path: '/',
     element:<Home/> ,
+  },
+  {
+    path: "service",
+    element: <Service/>
+  },
+  {
+    path: "about",
+    element: <About/>
   },
   {
     path: "contact",
@@ -23,14 +31,6 @@ const routes=([
   {
     path:'signup',
     element: <Signup/>,
-  },
-  {
-    path: "about",
-    element: <About/>
-  },
-  {
-    path: "profile",
-    element: <Profile/>
   },
   {
     path: "*",
