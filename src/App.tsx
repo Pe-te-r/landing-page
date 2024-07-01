@@ -1,13 +1,13 @@
-import {  RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {  BrowserRouter,  Route,  Routes } from 'react-router-dom';
 import Login from "./auth/login"
-import NavBar from "./components/navbar"
 import Home from './pages/home';
 import ContactForm from './pages/contact';
 import Signup from './pages/signup';
 import About from './pages/About';
 import Profile from './pages/Profile';
+import NavBar from './components/navbar';
 
-const router = createBrowserRouter([
+const routes=([
   {
     path: '/',
     element:<Home/> ,
@@ -43,10 +43,16 @@ const router = createBrowserRouter([
 function App() {
 
   return (
-    <>
-        {/* <NavBar /> */}
-        <RouterProvider router={router}/>
-    </>
+    <BrowserRouter>  
+      <div className="mainContainer" style={{ backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
+        <NavBar/>
+        <Routes>
+            {routes.map((route, index) =>{
+              return <Route key={index} path={route.path} element={route.element} />
+            })}
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 
