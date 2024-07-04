@@ -2,7 +2,7 @@ import Typewriter from 'typewriter-effect';
 
 const Home = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gray-100 p-6">
+    <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-base-200">
       <div className="md:w-1/2 w-full flex justify-center md:justify-end mb-6 md:mb-0">
         <img 
           src="https://i.pinimg.com/564x/da/40/4b/da404bf7bd4398c9f256c65507d3c860.jpg" 
@@ -11,11 +11,11 @@ const Home = () => {
         />
       </div>
       <div className="md:w-1/2 w-full md:pl-6 text-center md:text-left">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">Welcome to Phantom softwares</h1>
-        <p className="text-lg text-gray-700 mb-4">
+        <h1 className="text-4xl font-bold  mb-4">Welcome to Phantom softwares</h1>
+        <p className="text-lg  mb-4">
           Innovative Solutions, Exceptional Performance
         </p>
-        <p className="text-lg text-gray-700 mb-6">
+        <p className="text-lg text-green-700 mb-6">
           Discover our range of software solutions designed to streamline your business processes and boost productivity.
         </p>
         <div className="text-2xl font-semibold text-blue-600">

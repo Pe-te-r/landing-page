@@ -1,11 +1,11 @@
 
 const ContactForm = () => {
   return (
-    <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
+    <div className="max-w-md mx-auto mt-8 p-6 bg-white-200  rounded-lg shadow-md border">
       <h2 className="text-2xl font-semibold mb-6 text-center">Contact Us</h2>
       <form>
         <div className="mb-4">
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="name" className="block text-sm font-medium text-white-700">
             Name
           </label>
           <input

@@ -44,7 +44,7 @@ function App() {
 
   return (
     <BrowserRouter>  
-      <div className="mainContainer" style={{ backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
+      <div className="mainContainer " style={{ backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
         <NavBar/>
         <Routes>
             {routes.map((route, index) =>{
